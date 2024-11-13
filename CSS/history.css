@@ -1,0 +1,99 @@
+body {
+    background-color: bisque;
+    border: 10px solid black;
+    font-size: 24px;
+}
+
+nav {
+    background-color: #738d75;
+    padding: 12px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    background-color: gray
+}
+
+h1, h2, h3{
+    text-align: center;
+    font-size: 36px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.Vermont, .Whitecaps,.Frontier {
+    width: 45%; /* Adjust width as needed */
+    background-color: #F4D9B5; /* Same background color */
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.Catamounts, .Vancouver {
+    width: 45%; /* Adjust width as needed */
+    background-color: #F4D9B5; /* Same background color */
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#bottom-navbar {
+    position: local; /* Stays at the bottom */
+    bottom: 0; /* Position it at the bottom of the screen */
+    width: 98.2%; /* Make the navbar stretch across the screen */
+    background-color: #738d75; /* Background color for the navbar */
+    text-align: center; /* Center the items inside */
+    padding: 10px 0; /* Padding for some space inside the navbar */
+}
+  
+#bottom-navbar ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+  
+#bottom-navbar ul li {
+    display: inline-block; /* Items should be in a row */
+    margin: 0; /* Add some spacing between the items */
+}
+  
+#bottom-navbar ul li a {
+    color: white; /* White text for the links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 24px; /* Size of the text and icon */
+}
+  
+#bottom-navbar ul li a:hover {
+    color: gray; /* Color change on hover */
+}
+  
+#bottom-navbar ul li a i {
+    margin-right: 5px; /* Add some space between the icon and text */
+}
